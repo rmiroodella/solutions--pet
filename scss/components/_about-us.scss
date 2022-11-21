@@ -1,0 +1,38 @@
+#about-us{
+    margin: 100px -50px 60px -50px;
+    img{
+        height: 283.1px;
+        width: 294px;
+        border-radius: 22%;
+        box-shadow: 4px 4px 16px 2px rgba(0,0,0,0.3);
+    }
+    .us-content{
+        h2{
+            font-size: 2em;
+            font-weight: 600;
+            color: #65964F;
+            padding-top: 10px;
+        }
+        p{
+            font-size: 21px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 416px) {
+    #about-us{
+        margin: 0 0 10px 0;
+        img{
+            width: 285px;
+            padding-bottom: 5px;
+        }
+    }
+    .us-content{
+        p{
+            color: rgb(218, 217, 217);
+            text-align: left;
+            padding: 14px;
+        }
+    }
+}

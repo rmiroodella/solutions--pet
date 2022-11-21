@@ -1,0 +1,35 @@
+.title-hero{
+    h1{
+        font-size: 34px;
+        color: #476839;
+        font-weight: 600;
+        margin: 40px;
+    }
+}
+#hero{
+    .hero-img{
+        position: relative;
+        height: 70vh;
+        overflow: hidden;
+        background: linear-gradient(rgb(0 0 0 / .12),rgb(0 0 0 / .12) ) ,url(/img/hero-exteriores2.jpg);
+        background-size: cover;
+        box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.8);
+        @media screen and (max-width: 416px){
+            height: 50vh;
+        }
+    }
+    .my-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        overflow: hidden;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        h6{
+            font-weight: 600;
+            font-size: 35px;
+        }
+    }
+}

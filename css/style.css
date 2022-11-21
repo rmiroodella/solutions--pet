@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.my-nav {
+  background-color: #ebebeb;
+}
+.my-nav .my-link {
+  color: darkgreen;
+}
+.my-nav .my-link:hover {
+  color: #85B52E;
+}
+@media screen and (max-width: 416px) {
+  .my-nav .my-link {
+    color: rgb(218, 217, 217);
+  }
+}
+.my-nav .nav-image {
+  width: 20rem;
+}
+.my-nav .my-toggler {
+  background-color: #FE8100;
+  border: none;
+  border-radius: 15%;
+}
+
+/*media*/
+.white-logo {
+  display: none;
+}
+
+/*media*/
+@media screen and (max-width: 416px) {
+  .nav-image {
+    display: none;
+  }
+  .my-nav {
+    background-color: #313131;
+  }
+  .white-logo {
+    display: block;
+    width: 220px;
+  }
+  .back-color-media {
+    background-color: #434343;
+  }
+  .back-color-media li a {
+    color: #ebebeb;
+  }
+}
+.my-carousel {
+  margin-bottom: 50px;
+}
+
+/*media*/
+.carou-media {
+  display: none;
+}
+
+/*media*/
+@media screen and (max-width: 320px) {
+  #carousel {
+    display: none;
+  }
+  .carou-media {
+    display: block;
+  }
+}
+@media screen and (max-width: 416px) {
+  #carousel {
+    display: none;
+  }
+  .carou-media {
+    display: block;
+  }
+}
+.products-title-index {
+  margin: 50px 0;
+}
+.products-title-index p {
+  margin: 10px 0;
+  color: #65964F;
+  font-size: 3.1em;
+  font-weight: 500;
+}
+
+.cards-index {
+  width: 100%;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0;
+  align-items: center;
+  justify-items: center;
+}
+.cards-index .my-card {
+  background-color: #313131;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  height: 395px;
+  transition: transform 0.3s;
+}
+.cards-index .my-card:hover {
+  transform: translateY(3px);
+  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.5);
+}
+.cards-index img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-text {
+  color: rgb(227, 224, 224);
+  padding: 10px 20px 20px 20px;
+}
+.card-text h3 {
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.card-text button {
+  background-color: #fe8100;
+  border-radius: 20px;
+  border: none;
+  color: rgb(227, 224, 224);
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 416px) {
+  .cards-index {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 60px;
+  }
+  .cards-index .my-card {
+    width: 250px;
+    height: 375px;
+  }
+}
+#about-us {
+  margin: 100px -50px 60px -50px;
+}
+#about-us img {
+  height: 283.1px;
+  width: 294px;
+  border-radius: 22%;
+  box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.3);
+}
+#about-us .us-content h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #65964F;
+  padding-top: 10px;
+}
+#about-us .us-content p {
+  font-size: 21px;
+}
+
+@media screen and (max-width: 416px) {
+  #about-us {
+    margin: 0 0 10px 0;
+  }
+  #about-us img {
+    width: 285px;
+    padding-bottom: 5px;
+  }
+  .us-content p {
+    color: rgb(218, 217, 217);
+    text-align: left;
+    padding: 14px;
+  }
+}
+#my-footer {
+  background-color: #65964f;
+}
+#my-footer ul li {
+  list-style: none;
+  text-align: left;
+}
+#my-footer .my-cont-ftr {
+  padding-top: 20px;
+}
+#my-footer .my-cont-ftr .ftr-img img {
+  width: 90%;
+}
+#my-footer .contacto-ftr h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 30px;
+  color: white;
+}
+#my-footer .contacto-ftr a {
+  text-decoration: none;
+  color: white;
+}
+#my-footer .contacto-ftr a:hover {
+  color: #cecdcd;
+}
+#my-footer .contacto-ftr i {
+  font-size: 20px;
+  padding: 6px;
+}
+#my-footer .contacto-ftr .wa-i {
+  color: #24d366;
+}
+#my-footer .contacto-ftr .fb-i {
+  color: #4267b2;
+}
+#my-footer .contacto-ftr .ig-i {
+  color: #c13584;
+}
+#my-footer .contacto-ftr .yt-i {
+  color: #ff0000;
+}
+#my-footer .contacto-ftr-2 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 30px;
+  color: white;
+}
+#my-footer .contacto-ftr-2 a {
+  text-decoration: none;
+  color: white;
+}
+#my-footer .contacto-ftr-2 a:hover {
+  color: #cecdcd;
+}
+
+@media screen and (max-width: 320px) {
+  #my-footer {
+    background-color: #3e5c30;
+  }
+}
+#about-us-og {
+  margin: 60px 0 30px -60px;
+}
+#about-us-og img {
+  width: 90%;
+  padding: 20px 10px 10px 10px;
+}
+#about-us-og h4 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #65964f;
+  margin-bottom: -10px;
+  padding: 10px;
+}
+#about-us-og p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+#about-us-og-2 {
+  margin: 0 0 70px -60px;
+}
+#about-us-og-2 img {
+  width: 90%;
+  padding: 20px 10px 10px 10px;
+}
+#about-us-og-2 h4 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #65964f;
+  margin-bottom: -10px;
+  padding: 10px;
+}
+#about-us-og-2 p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  #about-us-og {
+    margin: 20px 0 5px 0;
+  }
+  #about-us-og img {
+    width: 100%;
+  }
+  #about-us-og h4 {
+    font-size: 1.5em;
+  }
+  #about-us-og p {
+    color: rgb(218, 217, 217);
+  }
+  #about-us-og-2 {
+    margin: 0 0 20px 0;
+  }
+  #about-us-og-2 img {
+    width: 100%;
+  }
+  #about-us-og-2 h4 {
+    font-size: 1.5em;
+  }
+  #about-us-og-2 p {
+    color: rgb(218, 217, 217);
+  }
+}
+@media screen and (max-width: 416px) {
+  #about-us-og {
+    margin: 20px 0 0 0;
+  }
+  #about-us-og img {
+    width: 100%;
+  }
+  #about-us-og h4 {
+    font-size: 1.9em;
+  }
+  #about-us-og p {
+    font-size: 1.3em;
+    color: rgb(218, 217, 217);
+  }
+  #about-us-og-2 {
+    margin: 0 0 20px 0;
+  }
+  #about-us-og-2 img {
+    width: 100%;
+  }
+  #about-us-og-2 h4 {
+    font-size: 1.9em;
+  }
+  #about-us-og-2 p {
+    font-size: 1.3em;
+    color: rgb(218, 217, 217);
+  }
+}
+.title-hero h1 {
+  font-size: 34px;
+  color: #476839;
+  font-weight: 600;
+  margin: 40px;
+}
+
+#hero .hero-img {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), url(/img/hero-exteriores2.jpg);
+  background-size: cover;
+  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width: 416px) {
+  #hero .hero-img {
+    height: 50vh;
+  }
+}
+#hero .my-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+#hero .my-container h6 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+#products-title {
+  margin: 40px 25px 0;
+}
+#products-title h2 {
+  color: #65964F;
+}
+#products-title p {
+  color: #000;
+  font-size: 1.2em;
+}
+
+.cards {
+  width: 100%;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+.cards .my-card-2 {
+  background-color: #313131;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 280px;
+  transition: transform 0.3s;
+}
+.cards .my-card-2:hover {
+  transform: translateX(3px);
+  box-shadow: 2px 2px 26px 0px rgba(40, 59, 31, 0.5);
+}
+.cards img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-text {
+  color: rgb(227, 224, 224);
+  padding: 10px 20px 20px 20px;
+}
+.card-text h3 {
+  font-weight: 500;
+}
+.card-text button {
+  background-color: #fe8100;
+  border-radius: 20px;
+  border: none;
+  color: rgb(227, 224, 224);
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .my-card-2 {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 416px) {
+  #products-title p {
+    color: #ebebeb;
+  }
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+}
+body, html {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+  body, html {
+    background-color: #141414;
+  }
+}
+@media screen and (max-width: 416px) {
+  body, html {
+    background-color: #141414;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

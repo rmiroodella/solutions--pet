@@ -1,0 +1,25 @@
+.my-carousel{
+    margin-bottom: 50px;
+}
+/*media*/
+.carou-media{
+    display: none;
+}
+/*media*/
+
+@media screen and (max-width: 320px) {
+    #carousel{
+        display: none;
+    }
+    .carou-media{
+        display: block;
+    }
+}
+@media screen and (max-width: 416px) {
+    #carousel{
+        display: none;
+    }
+    .carou-media{
+        display: block;
+    }    
+}

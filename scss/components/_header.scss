@@ -1,0 +1,46 @@
+.my-nav{
+    background-color: #ebebeb;
+    .my-link{
+        color: darkgreen;
+        &:hover{
+            color: #85B52E;
+        }
+        @media screen and (max-width: 416px){
+            color: rgb(218, 217, 217);
+        }
+    }
+    .nav-image{
+        width: 20rem;
+    }
+    .my-toggler{
+        background-color: #FE8100;
+        border: none;
+        border-radius: 15%;
+    }
+}
+/*media*/
+.white-logo{
+    display: none;
+}
+/*media*/
+
+@media screen and (max-width: 416px) {
+    .nav-image{
+        display: none;
+    }
+    .my-nav{
+        background-color: #313131;
+    }
+    .white-logo{
+        display: block;
+        width: 220px;
+    }
+    .back-color-media{
+        background-color: #434343;
+        li{
+            a{
+                color: #ebebeb;
+            }
+        }
+    }
+}
