@@ -3,9 +3,13 @@
     h2{
         color: #65964F;
     }
-    p{
+    .p-1{
         color: #000;
         font-size: 1.2em;
+    }
+    .p-2{
+        color: #000;
+        font-size: 1.1rem;
     }
 }
 .cards{
@@ -52,6 +56,34 @@
     cursor: pointer;
     }
 }
+.cards-2{
+    width: 100%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    .my-card-2{
+        background-color: #313131;
+        border: none;
+        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
+        border-radius: 20px;
+        text-align: center;
+        width: 280px;
+        transition: transform 0.3s;
+        &:hover{
+            transform: translateX(3px);
+            box-shadow: 2px 2px 26px 0px rgba(40,59,31,0.5);
+        }
+    }
+    img{
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+
 @media screen and (max-width: 320px){
     .my-card-2{
         width: 250px;
@@ -59,12 +91,12 @@
 }
 @media screen and (max-width: 416px){
     #products-title{
-        p{
+        .p-1, .p-2{
             color: #ebebeb; 
         }
 
     }
-    .cards{
+    .cards,.cards-2{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 50px;
     }
